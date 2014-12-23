@@ -1,0 +1,23 @@
+sundaeTest{
+	public static void main(String [] args)
+	{
+		sundae patsfatboyprobz = new sundae();
+		scanner input;
+		print how many scoops yo bitch ass want?
+		scoops = input
+		print tell me how you like your men? (black (choc), white(vanilla), homesexual (strawbbery));
+		flavaflav = input
+		print how many topings yo bitch ass need?
+		int i = input
+		String[]fatboytoppin;
+		for (0 : i)
+		{
+			print what u want on it nigga?
+			fatboytoppin[i] = input
+		}
+
+		
+
+	}
+
+}

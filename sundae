@@ -1,0 +1,57 @@
+class Sundae
+{
+		// these are all your private variables
+		private int scoops;
+		private char flavor;
+		private String[] toppings;
+
+
+		//your constructor
+		public Sundae()
+		{
+			scoops = 0;
+			char = ' ';
+			toppings = NULL;
+		}
+
+		//These are all your public methods
+
+		//These all take paramters because youre changing the variables
+		public void setScoops(int numScoop){
+		scoops = numScoop;
+		}
+		public void setFlavor(char aFlav){
+		flavor = aFlav;
+		}
+		public void setToppings(String[] toppin){
+		toppings = toppin;
+		}
+
+		//These are just accessors you dont need any parameters
+		public int getScoops(){
+		return scoops;
+		}
+		public char getFlavor(){
+		return flavor;
+
+		}
+		public String[] getToppings(){
+		return toppings;
+		}
+		public int numToppings(){
+		return toppings.size()
+		}
+		public void calcPrice(){
+		int price = (getScoops()+2);
+		if getScoops() == 1
+			price += toppings.size()*.1
+		if getScoops() == 2
+			price += toppings.size()*.2
+		if getScoops() == 3
+			price += toppings.size()*.3
+
+		print price;
+
+		}
+
+}
