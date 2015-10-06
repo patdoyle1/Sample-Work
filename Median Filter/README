@@ -1,0 +1,15 @@
+CS515 Assignment 3
+
+Name: Patrick Doyle
+uid: pjy55
+Section: 1
+
+How many hours did you take to complete this assignment?
+15
+
+How difficult did you find this assignment from a scale of 0-10 where 10 represents the hardest?
+Pretty difficult. Learning the median was difficult, however once it clicked, i was able to complete the assignment.
+
+
+What challenges did you encounter? And how did you address them?
+Im encountering challenges with dynamic memory management. I have 0 bytes lost however i have 9 errors. The errors werent not even involved with dynamic memory. It had to do with the fact that I perform a lot of stack based copies in a specific funcion ( the functino to calculate the median) However i do not even copy the value, although it appears i do, each of the creations is nested in an else if statement, so only 1 is able to be initliazed per call, and i need to do it that way because the array can be multiple sizes based on how many neighbors the specific pixel has. However, 0 bytes lost... only 9 errors and they are stack based, which i didnt even think was a thing.
